@@ -1,0 +1,375 @@
+<PhysX_Lab>
+  <SceneParams GravityValue="-9.80665" CurrentAxis="2">
+    <Camera TargetDistance="28.74438">
+      <Orientation W="0.1759199" X="0.4247082" Y="0.8204733" Z="0.3398512" />
+      <Position X="20.81749" Y="20.81749" Z="20.81749" />
+    </Camera>
+    <GravityRange Default="9.80665" UIMin="0" UIMax="9999" Min="0" Max="9999" />
+    <Gravity X="0" Y="0" Z="-9.80665" />
+  </SceneParams>
+  <MainPreferences>
+    <RenderCommandShortcuts>
+      <ToggleShadowMode Owner="RenderCommands" />
+      <ToggleWireframe Owner="RenderCommands" />
+    </RenderCommandShortcuts>
+    <ApplicationCommandShortcuts>
+      <New Owner="ApplicationCommands" />
+      <Open Owner="ApplicationCommands" />
+      <Save Owner="ApplicationCommands" />
+      <SaveAs Owner="ApplicationCommands" />
+      <Help Owner="ApplicationCommands" />
+    </ApplicationCommandShortcuts>
+    <AppCommandShortcuts>
+      <SwitchSimulationTimePolicy Owner="AppCommands" />
+      <SetSimulationMode Owner="AppCommands" />
+      <SetAuthoringMode Owner="AppCommands" />
+    </AppCommandShortcuts>
+    <DestructionCommandShortcuts>
+      <ChangeFractureMode Owner="DestructionCommands" />
+      <Explode Owner="DestructionCommands" />
+      <ExportShortcutSettings Owner="DestructionCommands" />
+      <ImportShortcutSettings Owner="DestructionCommands" />
+      <ExportAsset Owner="DestructionCommands" />
+      <ImportAsset Owner="DestructionCommands" />
+      <LoadPreset Owner="DestructionCommands" />
+      <SavePreset Owner="DestructionCommands" />
+      <CreateMaterialLibrary Owner="DestructionCommands" />
+      <LoadTextureAsMaterial Owner="DestructionCommands" />
+      <Import3DMesh Owner="DestructionCommands" />
+      <GroupSelection Owner="DestructionCommands" />
+    </DestructionCommandShortcuts>
+    <ProjectMruFolders>
+      <Mru>C:\Users\patri\Desktop\Classes\Games\GDG\armadilloPuzzler\Content\Geometry\Meshes\</Mru>
+      <Mru>C:\Users\patri\Documents</Mru>
+    </ProjectMruFolders>
+    <DestructionPreferences ControlPanelWidth="325">
+      <FractureMapMruFolders />
+      <FractureDataMruFolders />
+      <PresetsMruFolders />
+      <MeshMruFolders>
+        <Mru>C:\Users\patri\Desktop\Classes\Games\GDG\armadilloPuzzler\Content\Geometry\Meshes</Mru>
+        <Mru>C:\Users\patri\Documents</Mru>
+      </MeshMruFolders>
+      <AssetMruFolders />
+      <ImportTextureMruFolders />
+      <ScatterMeshMruFolders>
+        <Mru>C:\Users\patri\Desktop\Classes\Games\GDG\armadilloPuzzler\Content\Geometry\Meshes</Mru>
+        <Mru>C:\Users\patri\Documents</Mru>
+      </ScatterMeshMruFolders>
+      <MaterialLibraryMruFolders />
+      <ExportAssetMruFolders />
+      <ExportUnfracturableChunkMruFolders />
+    </DestructionPreferences>
+  </MainPreferences>
+  <Destruction IsFractureSliceDataChanged="true" IsFractureCutoutDataChanged="true" IsFractureVoronoiDataChanged="true" FractureModeName="Slice" IsMaterialDataChanged="True" IsActorInitDataChanged="false" IsFractured="false" IsAppletNotBusy="True" IsSimulationMode="false" AuthoringModeIdle="True" IsRadiusDamageToolActive="False" CurrentMaxDepth="-1" InstanceAllChunks="false" NewFileName="C:\Users\patri\Desktop\Classes\Games\GDG\armadilloPuzzler\Content\Geometry\Meshes\breakableGround.fbx">
+    <Preview RandomSeedValue="0" ExplodeValue="0.0001" ExplodeDepth="0" PreviewAxis="0" IsViewCoreMesh="false" IsExportCoreMesh="true" CoreMeshPath="C:\Users\patri\Desktop\Classes\Games\GDG\armadilloPuzzler\Content\Geometry\Meshes\breakableGround.fbx">
+      <ExplodeValueRange Default="0" UIMin="0" UIMax="100" Min="0" Max="10" />
+      <RandomSeedRange Default="0" UIMin="0" UIMax="999999" Min="0" Max="10" />
+    </Preview>
+    <FractureSlice MaxDepth="1" CurDepth="1" UseDisplacementMaps="false" UseTargetProportions="false" ModeSelected="True">
+      <TargetProportionsRange Default="1" UIMin="0.1" UIMax="100000" Min="0.001" Max="1000" />
+      <LinearNoiseRange Default="0" UIMin="0" UIMax="100" Min="0" Max="1" />
+      <AngularNoiseRange Default="0" UIMin="0" UIMax="90" Min="0" Max="1.570796" />
+      <TargetProportions X="100" Y="100" Z="100" />
+      <LinearNoise Index="1" X="0" Y="0" Z="0" />
+      <AngularNoise Index="1" X="0" Y="0" Z="0" />
+      <Order Index="1" Value="0" />
+      <SplitsPerPass Index="1" X="0" Y="0" Z="0" />
+      <Cleavage Index="1">
+        <GridSize Index="1" X="0" Y="0" Z="0" />
+        <GridSizeRange Default="10" UIMin="1" UIMax="50" Min="1" Max="50" />
+        <NoiseAmplitude Index="1" X="0" Y="0" Z="0" />
+        <NoiseAmplitudeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+        <NoiseFrequency Index="1" X="0" Y="0" Z="0" />
+        <NoiseFrequencyRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+      </Cleavage>
+    </FractureSlice>
+    <FractureBehaviorGroupManager>
+      <FractureBehaviorGroups />
+      <FractureBehaviorGroupStaticParams UserDataByte0="0" UserDataByte1="0" UserDataByte2="0" UserDataByte3="0" UserDataByte4="0" UserDataByte5="0" UserDataByte6="0" UserDataByte7="0" UserDataWord0="0" UserDataWord1="0" UserDataWord2="0" UserDataWord3="0" UserDataDWord0="0" UserDataDWord1="0" UserDataQWord="0" SelectedGroupIndex="0" BehaviorGroupListIndex="0" UserDataOptionIndex="0">
+        <DamageSpreadMinimumRadiusRange Default="0" UIMin="0" UIMax="1000" Min="0" Max="1000" />
+        <DamageSpreadRadiusMultiplierRange Default="1" UIMin="0" UIMax="1000" Min="0" Max="1000" />
+        <DamageSpreadFalloffExponentRange Default="1" UIMin="0" UIMax="10" Min="0" Max="10" />
+        <DamageColorSpreadMinimumRadiusRange Default="0" UIMin="0" UIMax="1000" Min="0" Max="1000" />
+        <DamageColorSpreadRadiusMultiplierRange Default="1" UIMin="0" UIMax="1000" Min="0" Max="1000" />
+        <DamageColorSpreadFalloffExponentRange Default="1" UIMin="0" UIMax="10" Min="0" Max="10" />
+        <DamageColorChangeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+        <DamageThresholdRange Default="1" UIMin="0" UIMax="100" Min="0" Max="100" />
+        <ImpactDamageToRadiusRange Default="0.1" UIMin="0" UIMax="1000" Min="0" Max="1000" />
+        <MaterialStrengthRange Default="0" UIMin="0" UIMax="3.402823E+38" Min="0" Max="3.402823E+38" />
+        <DensityRange Default="0" UIMin="0" UIMax="3.402823E+38" Min="0" Max="3.402823E+38" />
+        <UserDataByteRange Default="0" UIMin="0" UIMax="255" Min="0" Max="255" />
+        <UserDataWordRange Default="0" UIMin="0" UIMax="65535" Min="0" Max="65535" />
+        <UserDataDWordRange Default="0" UIMin="0" UIMax="4294967295" Min="0" Max="4294967295" />
+        <UserDataQWordRange Default="0" UIMin="0" UIMax="18446744073709551615" Min="0" Max="18446744073709551615" />
+      </FractureBehaviorGroupStaticParams>
+      <FractureBehaviorGroupParams DamageThreshold="1" ImpactDamageToRadius="0.1" MaterialStrength="0" Density="0" UserData="0" Label="Default Behavior Group">
+        <DamageSpread MinimumRadius="0" RadiusMultiplier="1" FalloffExponent="1" />
+        <DamageColorSpread MinimumRadius="0" RadiusMultiplier="1" FalloffExponent="1" />
+        <DamageColorChange W="0" X="0" Y="0" Z="0" />
+      </FractureBehaviorGroupParams>
+    </FractureBehaviorGroupManager>
+    <FractureBehavior AccumulateDamage="true" DamageCap="0" ForceToDamage="0" DamageDepthLimit="65535" RigidBodySize="1" RigidBodyMass="10" RigidBodySpeed="100" IsImpactTestThrowing="false" ShootingTestType="-1" DestructibleTilingX="1" DestructibleTilingY="1" DestructibleTilingZ="1" IsUseGRB="false" MassScaleExponent="0.5" MassScale="1">
+      <DamageCapRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <ForceToDamageRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <DamageDepthLimitRange Default="65535" UIMin="0" UIMax="65535" Min="0" Max="65535" />
+      <RigidBodySizeRange Default="1" UIMin="0.1" UIMax="100" Min="0.1" Max="100" />
+      <RigidBodyMassRange Default="10" UIMin="0.01" UIMax="9999.99" Min="0.01" Max="9999.99" />
+      <RigidBodySpeedRange Default="100" UIMin="0.01" UIMax="9999.99" Min="0.01" Max="9999.99" />
+      <ShootingTestType Array0="-1" />
+      <DestructibleTilingRange Default="1" UIMin="1" UIMax="8" Min="1" Max="8" />
+      <DestructibleTiling Array0="1" Array1="1" Array2="1" />
+      <MassScaleExponentRange Default="0.5" UIMin="0" UIMax="1" Min="0" Max="1" />
+      <MassScaleRange Default="1" UIMin="0" UIMax="3.402823E+38" Min="0" Max="3.402823E+38" />
+    </FractureBehavior>
+    <AssetSettings DebrisDepth="0" IsFormExtendedStructures="false" IsAssetDefinedSupport="false" IsWorldSupport="false" IsUseDebrisDepth="false" IsUseLifetime="false" LifetimeMin="1" LifetimeMax="3" IsUseMaxSeparation="false" MaxSeparationMin="1" MaxSeparationMax="2" DestructionProbability="0" SupportDepth="0" SupportStrength="-1" EssentialDepth="0" IsCrumbleSmallestChunks="false" LifetimeMinRangeMin="0" LifetimeMinRangeDefault="1" LifetimeMaxRangeDefault="3" LifetimeMaxRangeMax="9999.99" DepthIndex="0" AccurateRaycasts="false" RTFractureSmallestChunks="false" ValidBounds="false" IsAssetTracking="false" MassScaleExponentValue="0.5" MaxChunkSpeedValue="0" MaxTrimming="20" NeighborPadding="0.001">
+      <MaxSeparationMinRange Default="1" UIMin="0" UIMax="9999.99" Min="0" Max="99.99" />
+      <MaxSeparationMaxRange Default="2" UIMin="0" UIMax="9999.99" Min="0" Max="99.99" />
+      <DestructionProbabilityRange Default="0" UIMin="0" UIMax="1" Min="0" Max="1" />
+      <MaxChunkSpeedRange Default="0" UIMin="0" UIMax="99999.99" Min="0" Max="99999.99" />
+      <ValidBoundsRange Default="10" UIMin="-9999.9" UIMax="9999.9" Min="-9999.9" Max="9999.9" />
+      <SupportStrengthRange Default="-1" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <NeighborPaddingRange Default="0.001" UIMin="0" UIMax="99999.99" Min="0" Max="99999.99" />
+      <ValidBoundsMin X="-9999.99" Y="-9999.99" Z="-9999.99" />
+      <ValidBoundsMax X="9999.99" Y="9999.99" Z="9999.99" />
+      <IsTakeImpactDamage flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+      <IsIgnorePoseUpdateAtDepth flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+      <IsIgnoreRaycastCallbacksAtDepth flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+      <IsIgnoreContactCallbacksAtDepth flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+      <IsUserFlag0AtDepth flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+      <IsUserFlag1AtDepth flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+      <IsUserFlag2AtDepth flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+      <IsUserFlag3AtDepth flag0="false" flag1="false" flag2="false" flag3="false" flag4="false" flag5="false" />
+    </AssetSettings>
+    <ChunkSettings CurrentGroupName="NONE" ChunkConnectionListIndex="-1" HasSelection="false">
+      <SelectedChunks />
+      <Support />
+      <DoNotFracture />
+      <DoNotDamage />
+      <DoNotCrumble />
+    </ChunkSettings>
+    <RTFractureParams SheetFracture="false" DestroyIfAtDepthLimit="false" DepthLimit="2" MinConvexSize="0.02" ImpulseScale="1">
+      <Glass NumSectors="10" SectorRand="0.3" FirstSegmentSize="0.06" SegmentScale="1.4" SegmentRand="0.3">
+        <NumSectorsRange Default="10" UIMin="0" UIMax="100" Min="0" Max="100" />
+        <SectorRandRange Default="0.3" UIMin="0" UIMax="1" Min="0" Max="1" />
+        <FirstSegmentSizeRange Default="0.06" UIMin="0" UIMax="1" Min="0" Max="1" />
+        <SegmentScaleRange Default="1.4" UIMin="0" UIMax="10" Min="0" Max="10" />
+        <SegmentRandRange Default="0.3" UIMin="0" UIMax="1" Min="0" Max="1" />
+      </Glass>
+      <Attachment PosX="false" PosY="false" PosZ="false" NegX="false" NegY="false" NegZ="false" />
+      <DepthLimitRange Default="2" UIMin="0" UIMax="10" Min="0" Max="10" />
+      <MinConvexSizeRange Default="0.02" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <ImpulseScaleRange Default="1" UIMin="0" UIMax="100" Min="0" Max="100" />
+    </RTFractureParams>
+    <CollisionSettings CurDepth="0" CollisionShape="0" CollisionQuality="0" CookingTargetPlatform="0" OverlapPrecacheDepth="6" MaxHullFeatureCount="0">
+      <MaxHullFeatureRange Default="0" UIMin="0" UIMax="1000" Min="0" Max="1000" />
+    </CollisionSettings>
+    <ScatterMeshManager>
+      <ScatterMeshs>
+        <breakableGround ScatterAmountMax="25" ScatterAmountMin="25" ScaleMax="1" ScaleMin="1" Angle="0" ScatterMeshMaterialIndex="0" ScatterMeshPath="C:\Users\patri\Desktop\Classes\Games\GDG\armadilloPuzzler\Content\Geometry\Meshes\breakableGround.fbx" />
+      </ScatterMeshs>
+      <ScatterMeshStaticParams ScatterOnSelectedChunksOnly="false" Seed="0" SelectedIndex="0">
+        <ScatterAmountRangeMax Default="25" UIMin="1" UIMax="4294967295" Min="1" Max="4294967295" />
+        <ScatterAmountRangeMin Default="25" UIMin="1" UIMax="4294967295" Min="1" Max="4294967295" />
+        <ScaleRangeMax Default="1" UIMin="1E-06" UIMax="3.402823E+38" Min="1E-06" Max="3.402823E+38" />
+        <ScaleRangeMin Default="1" UIMin="1E-06" UIMax="3.402823E+38" Min="1E-06" Max="3.402823E+38" />
+        <AngleRange Default="0" UIMin="0" UIMax="90" Min="0" Max="90" />
+        <SeedRange Default="0" UIMin="0" UIMax="4294967295" Min="0" Max="4294967295" />
+      </ScatterMeshStaticParams>
+      <ScatterMeshParams ScatterAmountMax="25" ScatterAmountMin="25" ScaleMax="1" ScaleMin="1" Angle="0" ScatterMeshMaterialIndex="0" ScatterMeshPath="C:/Users/patri/Desktop/Classes/Games/GDG/armadilloPuzzler/Content/Geometry/Meshes/breakableGround.fbx" />
+    </ScatterMeshManager>
+    <InteriorMaterialParams IsDefaultMaterial="true" IsApplyCoreMeshMaterialToNeighborChunks="false" UVOrigin="TopLeft" ReplaceDepthInteriorMaterialsOnly="false" MaterialNameIndex="-1" InteriorMaterialIndex="0">
+      <MapUScale Index="1" X="0" Y="0" Z="0" Store="1;1;1;1;1;1" />
+      <MapVScale Index="1" X="0" Y="0" Z="0" Store="1;1;1;1;1;1" />
+      <MapUOffset Index="1" X="0" Y="0" Z="0" Store="0;0;0;0;0;0" />
+      <MapVOffset Index="1" X="0" Y="0" Z="0" Store="0;0;0;0;0;0" />
+      <MapUDirection Index="1" X="0" Y="0" Z="0" Store="0;0;0;0;0;0" />
+      <MapUFlipping Index="1" X="0" Y="0" Z="0" Store="False;False;False;False;False;False" />
+      <MapVFlipping Index="1" X="0" Y="0" Z="0" Store="False;False;False;False;False;False" />
+      <UVScale Y="1" X="1" />
+      <MapUVScaleRange Default="1" UIMin="0.01" UIMax="9999.99" Min="0.01" Max="9999.99" />
+      <MapUVOffsetRange Default="0" UIMin="-1" UIMax="1" Min="-1" Max="1" />
+      <MapUDirectionRange Default="0" UIMin="0" UIMax="359.999" Min="0" Max="359.999" />
+    </InteriorMaterialParams>
+    <VertexFormatParams NormalFormatIndex="1" TangentFormatIndex="0" BinormalsOnOff="false" />
+    <DamageForceParams Damage="1" Momentum="100" IsFallOff="false">
+      <DamageValueRange Default="10" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <MomentumValueRange Default="0.1" UIMin="0" UIMax="1000" Min="0" Max="1000" />
+    </DamageForceParams>
+    <AFMStream EncodeMethod="Deflate" Size="36">
+      <AFMStream0 Size="36" CompressedSize="12" Compressed="true">M2NgYDBkwATMSGwA</AFMStream0>
+    </AFMStream>
+    <CoreMeshStream />
+    <ScatterMeshStream EncodeMethod="Deflate" Size="4">
+      <ScatterMeshStream0 Size="4" Compressed="false">AAAAAA==</ScatterMeshStream0>
+    </ScatterMeshStream>
+    <UISettings ActiveTabIndex="1" IsShowMeshBSPInsideRegions="false" IsShowMeshBSPOutsideRegions="false" IsShowSupportVisualizations="false" IsShowStats="false" IsShowCollision="false" IsShowBound="false" IsShowTangentBasis="false" IsShadowEnabled="false" IsWireFrameEnabled="false" IsHighlightMostEdgeChunk="False" IsHighlight0OffsetInstances="False" IsHighlightNon0OffsetInstances="False" IsDisplayTypicalSliceSurface="false" IsViewSliceSurfaceWireframe="false" IsSimulationMeshTransparent="false">
+      <Preview IsExpanded="true" />
+      <FractureSlice IsExpanded="true" IsAdvanced="false" IsSettingsAtDepthExpanded="false" />
+      <FractureDamage IsExpanded="true" IsAdvanced="false" />
+      <AssetDebris IsExpanded="true" IsAdvanced="false" />
+      <AssetCrumble IsExpanded="true" />
+      <AssetSupport IsExpanded="true" />
+      <AssetChunk IsExpanded="true" />
+      <AssetChunkConnections IsExpanded="false" />
+      <AssetRT IsExpanded="true" />
+      <AssetGlass IsExpanded="false" />
+      <AssetAttachment IsExpanded="false" />
+      <AssetRRB IsExpanded="true" />
+      <AssetQueries IsExpanded="true" />
+      <AssetGRB IsExpanded="true" />
+      <AssetMisc IsExpanded="false" />
+      <BehaviorGroups IsExpanded="false" />
+      <InteriorMaterialParams IsExpanded="false" IsCoreExpanded="false" IsStaticMaterialExpanded="false" IsMaterialLibraryExpanded="false" />
+      <UVMapSettings IsExpanded="true" IsAdvanced="false" />
+      <VertexFormatParams IsExpanded="true" />
+      <FractureMap IsExpanded="true" />
+      <CutOutSettings IsExpanded="true" IsAdvanced="false" IsInteriorTextureSettingsExpanded="false" IsPerimeterUVSettingsExpanded="false" IsPerimeterUVSettingsAdvanced="false" IsInteriorNoiseSettingsExpanded="false" />
+      <FractureVoronoi IsExpanded="true" IsAdvanced="false" IsInteriorNoiseSettingsExpanded="false" />
+      <FractureGroup IsExpanded="true" />
+      <CollisionSettings IsExpanded="false" />
+      <DepthParameters IsExpanded="false" />
+      <RandomSeedGenerator IsExpanded="true" />
+      <RandomNumberGenerator IsExpanded="true" />
+      <CoreMesh IsExpanded="true" />
+      <ScatterMesh IsExpanded="true" />
+      <MeshProcessing IsExpanded="true" />
+      <BSP IsExpanded="true" />
+      <Instancing IsExpanded="false" />
+      <ImpactTest IsExpanded="true" />
+      <BSPParameter IsExpanded="false" />
+      <SliceSurfaceSettings IsExpanded="false" />
+      <SimulationVisualSettings IsExpanded="false" />
+      <CollisionTrim IsExpanded="false" />
+      <PersistentParametersUI IsExpanded="false" />
+    </UISettings>
+    <FractureCutOutParams Depth="0.5" DistanceThreshold="4" BehaviorIndex="0" IsTrimFaceHulls="true" IsPeriodicBoundaryCondition="false" IsHideFracturePlane="false" IsShowMeshTexture="false" IsUVBasedCutoutFracture="false" ModeSelected="False" InstanceCongruentChunks="false" FractureMapAspectRatio="1" ViewDirection="0" CutoutAxesOrder="181896" Order="181896">
+      <FractureMap Width="0" Height="0" Size="0">
+      </FractureMap>
+      <MapSizeRangeU Default="1" UIMin="1" UIMax="9999.99" Min="1" Max="9999.99" />
+      <MapSizeRangeV Default="1" UIMin="1" UIMax="9999.99" Min="1" Max="9999.99" />
+      <DepthsRange Default="50" UIMin="0.01" UIMax="100" Min="0.01" Max="100" />
+      <DistanceThresholdRange Default="4" UIMin="0" UIMax="10" Min="0" Max="10" />
+      <Cleavage>
+        <BackFaceNoise GridSize="10" NoiseAmplitude="0" NoiseFrequency="0.25">
+          <NoiseAmplitudeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+          <NoiseFrequencyRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+          <GridSizeRange Default="10" UIMin="1" UIMax="50" Min="1" Max="50" />
+        </BackFaceNoise>
+        <SideNoise GridSize="10" NoiseAmplitude="0" NoiseFrequency="0.25">
+          <NoiseAmplitudeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+          <NoiseFrequencyRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+          <GridSizeRange Default="10" UIMin="1" UIMax="50" Min="1" Max="50" />
+        </SideNoise>
+      </Cleavage>
+      <DirectionFlags Array0="True" Array1="False" Array2="False" Array3="False" Array4="False" Array5="False" />
+      <CutoutDepths Array0="0.5" Array1="0.5" Array2="0.5" Array3="0.5" Array4="0.5" Array5="0.5" />
+      <CutoutWidthScales Array0="1" Array1="1" Array2="1" Array3="1" Array4="1" Array5="1" />
+      <CutoutHeightScales Array0="1" Array1="1" Array2="1" Array3="1" Array4="1" Array5="1" />
+      <CutoutWidthOffsets Array0="0" Array1="0" Array2="0" Array3="0" Array4="0" Array5="0" />
+      <CutoutHeightOffsets Array0="0" Array1="0" Array2="0" Array3="0" Array4="0" Array5="0" />
+      <CutoutWidthInverts Array0="False" Array1="False" Array2="False" Array3="False" Array4="False" Array5="False" />
+      <CutoutHeightInverts Array0="False" Array1="False" Array2="False" Array3="False" Array4="False" Array5="False" />
+      <BackFaceNoiseAmplitude Array0="0" Array1="0" Array2="0" Array3="0" Array4="0" Array5="0" />
+      <BackFaceNoiseFrequency Array0="0.25" Array1="0.25" Array2="0.25" Array3="0.25" Array4="0.25" Array5="0.25" />
+      <BackFaceGridSize Array0="10" Array1="10" Array2="10" Array3="10" Array4="10" Array5="10" />
+      <CutoutInteriorFaceNoiseAmplitude Array0="0" Array1="0" Array2="0" Array3="0" Array4="0" Array5="0" />
+      <CutoutInteriorFaceNoiseFrequency Array0="0.25" Array1="0.25" Array2="0.25" Array3="0.25" Array4="0.25" Array5="0.25" />
+      <CutoutInteriorGridSize Array0="10" Array1="10" Array2="10" Array3="10" Array4="10" Array5="10" />
+      <NoiseAmplitudeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <NoiseFrequencyRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <GridSizeRange Default="10" UIMin="1" UIMax="50" Min="1" Max="50" />
+      <OffsetRangeU0 Default="0" UIMin="0" UIMax="0" Min="0" Max="0" />
+      <OffsetRangeV0 Default="0" UIMin="0" UIMax="0" Min="0" Max="0" />
+      <OffsetRangeU1 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeV1 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeU2 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeV2 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeU3 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeV3 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeU4 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeV4 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeU5 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <OffsetRangeV5 Default="0" UIMin="-9999.99" UIMax="9999.99" Min="-9999.99" Max="9999.99" />
+      <InteriorMapUFlippingPositive Index="1" X="False" Y="0" Z="0" Store="False;False;False;False;False;False" />
+      <InteriorMapUFlippingNegative Index="1" X="False" Y="0" Z="0" Store="False;False;False;False;False;False" />
+      <InteriorMapVFlippingPositive Index="1" X="False" Y="0" Z="0" Store="False;False;False;False;False;False" />
+      <InteriorMapVFlippingNegative Index="1" X="False" Y="0" Z="0" Store="False;False;False;False;False;False" />
+      <PerimeterScaleRange Default="1" UIMin="0.01" UIMax="9999.99" Min="0.01" Max="9999.99" />
+      <PerimeterOffsetRange Default="0" UIMin="-1" UIMax="1" Min="-1" Max="1" />
+      <PerimeterDirectionRange Default="0" UIMin="0" UIMax="359.999" Min="0" Max="359.999" />
+      <PerimeterUScale Index="1" X="1" Y="0" Z="0" Store="1;1;1;1;1;1" />
+      <PerimeterVScale Index="1" X="1" Y="0" Z="0" Store="1;1;1;1;1;1" />
+      <PerimeterUOffset Index="1" X="0" Y="0" Z="0" Store="0;0;0;0;0;0" />
+      <PerimeterVOffset Index="1" X="0" Y="0" Z="0" Store="0;0;0;0;0;0" />
+      <PerimeterUDirection Index="1" X="0" Y="0" Z="0" Store="0;0;0;0;0;0" />
+      <PerimeterUFlipping Index="1" X="0" Y="0" Z="0" />
+      <PerimeterVFlipping Index="1" X="0" Y="0" Z="0" />
+    </FractureCutOutParams>
+    <MeshProcessingParams IslandGeneration="false" RemoveTJunctions="false" MicrogridSize="65536">
+      <MicrogridSizeRange Default="65536" UIMin="0" UIMax="2147483647" Min="0" Max="2147483647" />
+    </MeshProcessingParams>
+    <ModuleLOD MaxChunkDepthOffset="0" MaxChunkSeparationLOD="0.5" MaxDynamicChunkIslandCount="0">
+      <MaxChunkSeparationLODRange Default="0.5" UIMin="0" UIMax="1" Min="0" Max="1" />
+      <MaxDynamicChunkIslandCountRange Default="0" UIMin="0" UIMax="9999" Min="0" Max="9999" />
+    </ModuleLOD>
+    <GraphicalLOD GraphicalLODUI="0" />
+    <FractureVoronoi SiteNumber="10" InteriorNoiseAmplitude="0" InteriorNoiseFrequency="0.25" InteriorGridSize="10" ModeSelected="False">
+      <SiteNumberRange Default="10" UIMin="2" UIMax="1000" Min="2" Max="1000" />
+      <NoiseAmplitudeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <NoiseFrequencyRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+      <GridSizeRange Default="10" UIMin="1" UIMax="50" Min="1" Max="50" />
+    </FractureVoronoi>
+    <PersistentParams OutputScale="1">
+      <OutputScaleRange Default="1" UIMin="1E-05" UIMax="1000000" Min="1E-05" Max="1000000" />
+    </PersistentParams>
+    <BSPParams BSPParameterVisible="false" ShowSurfaceTriangles="false" TestSetSize="10" SplitWeight="0.5" ImbalanceWeight="0" AreaThreshold="2" LinearTolerance="1E-06" AngularTolerance="1E-05" BaseTolerance="1E-09" ClipTolerance="1E-13">
+      <TestSetSizeRange Default="10" UIMin="1" UIMax="2147483647" Min="1" Max="2147483647" />
+      <WeightsRange Default="0" UIMin="0" UIMax="3.402823E+38" Min="0" Max="3.402823E+38" />
+      <AreaThresholdRange Default="2" UIMin="0" UIMax="10" Min="0" Max="10" />
+      <TolerancesRange Default="1E-06" UIMin="0" UIMax="1" Min="0" Max="1" />
+    </BSPParams>
+    <FractureGroupManagerParams SelectedGroupName="NONE">
+      <FractureGroupParams0 GroupDepth="-1" InstanceAll="False" GroupName="ground">
+        <ChunkIndices />
+        <FractureSlice MaxDepth="1" CurDepth="1" UseDisplacementMaps="False" UseTargetProportions="False" ModeSelected="true">
+          <TargetProportionsRange Default="1" UIMin="0.1" UIMax="100000" Min="0.001" Max="1000" />
+          <LinearNoiseRange Default="0" UIMin="0" UIMax="100" Min="0" Max="1" />
+          <AngularNoiseRange Default="0" UIMin="0" UIMax="90" Min="0" Max="1.570796" />
+          <TargetProportions X="100" Y="100" Z="100" />
+          <LinearNoise Index="1" X="0" Y="0" Z="0" />
+          <AngularNoise Index="1" X="0" Y="0" Z="0" />
+          <Order Index="1" Value="0" />
+          <SplitsPerPass Index="1" X="0" Y="0" Z="0" />
+          <Cleavage Index="1">
+            <GridSize Index="1" X="0" Y="0" Z="0" />
+            <GridSizeRange Default="10" UIMin="1" UIMax="50" Min="1" Max="50" />
+            <NoiseAmplitude Index="1" X="0" Y="0" Z="0" />
+            <NoiseAmplitudeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+            <NoiseFrequency Index="1" X="0" Y="0" Z="0" />
+            <NoiseFrequencyRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+          </Cleavage>
+        </FractureSlice>
+        <FractureVoronoi SiteNumber="10" InteriorNoiseAmplitude="0" InteriorNoiseFrequency="0.25" InteriorGridSize="10" ModeSelected="false">
+          <SiteNumberRange Default="10" UIMin="2" UIMax="1000" Min="2" Max="1000" />
+          <NoiseAmplitudeRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+          <NoiseFrequencyRange Default="0" UIMin="0" UIMax="100" Min="0" Max="100" />
+          <GridSizeRange Default="10" UIMin="1" UIMax="50" Min="1" Max="50" />
+        </FractureVoronoi>
+      </FractureGroupParams0>
+    </FractureGroupManagerParams>
+    <DestructionPreferences ControlPanelWidth="325">
+      <FractureMapMruFolders />
+      <FractureDataMruFolders />
+      <PresetsMruFolders />
+      <MeshMruFolders />
+      <AssetMruFolders />
+      <ImportTextureMruFolders />
+      <ScatterMeshMruFolders />
+      <MaterialLibraryMruFolders />
+      <ExportAssetMruFolders />
+      <ExportUnfracturableChunkMruFolders />
+    </DestructionPreferences>
+  </Destruction>
+  <Icon />
+</PhysX_Lab>
